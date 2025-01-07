@@ -12,7 +12,7 @@ if (is_array($value)) {
     $value = $value;
 }
 
-$field['youtube_api_key'] = $field['youtube_api_key'] ?? 'AIzaSyBLRoVYovRmbIf_BH3X12IcTCudAEDRlCE';
+$field['youtube_api_key'] = $field['youtube_api_key'] ?? '';
 
 $field['wrapper'] = $field['wrapper'] ?? $field['wrapperAttributes'] ?? [];
 $field['wrapper']['data-init-function'] = 'bpFieldInitVideoElement';
